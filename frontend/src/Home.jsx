@@ -104,38 +104,38 @@ export default function CharactersApp() {
         </tbody>
       </table>
 
-      <form onSubmit={handleAdd} className="mt-6 space-y-2">
+      <form onSubmit={handleAdd} className="mt-6 g-5 flex">
         <input
           value={id}
           onChange={(e) => setId(e.target.value)}
           placeholder="ID"
-          className="border px-2 py-1 rounded w-full
+          className="border mx-2 px-2 rounded w-full
              focus:outline-none focus:ring-2 focus:ring-[#78a1bb]"
         />
         <input
           value={name}
           onChange={(e) => setName(e.target.value)}
           placeholder="Name"
-          className="border px-2 py-1 rounded w-full
+          className="border mx-2 px-2 py-2 rounded w-full
              focus:outline-none focus:ring-2 focus:ring-[#78a1bb]"
         />
         <input
           value={realName}
           onChange={(e) => setRealName(e.target.value)}
           placeholder="Real Name"
-          className="border px-2 py-1 rounded w-full
+          className="border mx-2 px-2 py-2 rounded w-full
              focus:outline-none focus:ring-2 focus:ring-[#78a1bb]"
         />
         <input
           value={universe}
           onChange={(e) => setUniverse(e.target.value)}
           placeholder="Universe"
-          className="border px-2 py-1 rounded w-full
+          className="border mx-2 px-2 py-2 rounded w-full
              focus:outline-none focus:ring-2 focus:ring-[#78a1bb]"
         />
         <button
           type="submit"
-          className="bg-[#283044] text-white px-4 py-2 rounded w-full"
+          className="bg-[#283044] text-white mx-auto px-4 py-2 rounded w-full"
         >
           Ajouter
         </button>
